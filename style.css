@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cont-elements {
+    display: flex;
+    width: 1440px;
+    height: 1080px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.e1 {
+    border: 5px solid #E5E000;
+    display: flex;
+    width: 400px;
+    height: 800px;
+    border-radius: 30px; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.e1-cont {
+    display: flex;
+    width: 334px;
+    height: 670px;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.e11 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.e1-head {
+    display: flex;
+    width: 207px;
+    height: 23px;
+    justify-content: flex-start;
+    margin-right: 123px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.e11-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cont-sidebar {
+    display: flex;
+    width: 1440px;
+    height: 60px;
+    background-color: #FE1A19;
+    align-items: center;
+    
+}
+
+.sidebar {
+    width: 840px;
+    height: 20px;
+}
+
+.textside {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    line-height: 23px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.cont-footer {
+    display: flex;
+    width: 1440px;
+    height: 60px;
+    background-color: #FE1A19;
+}
+
+.footer-box {
+    display: flex;
+    width: 1400px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.copyright {
+    display: flex;
+    width: 170px;
+    height: 20px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    margin-left: 20px;
+}
+
+.dao {
+    display: flex;
+    width: 135px;
+    height: 29px;
+
+}
